@@ -1,0 +1,9 @@
+# local backups/state (only created on the head unit, never committed)
+/var/
+*.mcc.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~

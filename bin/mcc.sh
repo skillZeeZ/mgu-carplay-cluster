@@ -22,6 +22,7 @@
 
 set -u
 
+# shellcheck disable=SC1007  # 'CDPATH= cd' is an intentional env-prefixed command, not an assignment
 SELF_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 # shellcheck source=bin/mcc-lib.sh
 . "$SELF_DIR/mcc-lib.sh"
